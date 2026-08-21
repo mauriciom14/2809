@@ -1,0 +1,17 @@
+:root {
+    color: darkblue;
+    background: wheat;
+    font-family: system-ui, sans-serif;
+}
+body {
+    width: min(68rem, calc(100% - 2rem));
+    margin: 2rem auto;
+}
+img {
+    width: 10rem;
+    padding: 10px;
+}
+a,
+button {
+    color: rebeccapurple;
+}
