@@ -4,8 +4,11 @@
     <link rel="stylesheet" href="/css/formulario.css">
     <meta charset="UTF-8"><title>Novo estudante</title></head>
 <body>
+<header>
+    <img> <img src="/imagens/fotodoif.png" alt="IFPB Campus Cajazeiras"></header>
+
     <h1>Novo estudante</h1>
-    <form method="post" action="/estudantes/confirmar">
+    <form method="post" action="/estudantes">
         <input type="hidden" name="id" value="0">
     <label for="nome">Nome</label>
     <input type="text" id="nome" name="nome">
